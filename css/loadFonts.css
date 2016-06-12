@@ -1,0 +1,98 @@
+/*--Jura--*/
+
+@font-face {
+	font-family: 'PT Serif';
+	src: url('../fonts/PTSerif/PT-serif-Regular.ttf');
+	font-weight : 400;
+	font-style : normal;
+}
+@font-face {
+	font-family: 'PT Serif';
+	src: url('../fonts/PTSerif/PT-serif-Italic.ttf');
+	font-weight : 400;
+	font-style : italic;
+}
+@font-face {
+	font-family: 'PT Serif';
+	src: url('../fonts/PTSerif/PT-serif-Bold.ttf');
+	font-weight : 600;
+	font-style : normal;
+}
+@font-face {
+	font-family: 'PT Serif';
+	src: url('../fonts/PTSerif/PT-serif-BoldItalic.ttf');
+	font-weight : 600;
+	font-style : italic;
+}
+
+/*--Libre Bodoni--*/
+
+@font-face {
+	font-family: 'Libre Bodoni';
+	src: url('../fonts/LibreBodoni/LibreBodoni-Regular.otf');
+	font-weight : 400;
+	font-style : normal;
+}
+@font-face {
+	font-family: 'Libre Bodoni';
+	src: url('../fonts/LibreBodoni/LibreBodoni-Italic.otf');
+	font-weight : 400;
+	font-style : italic;
+}
+@font-face {
+	font-family: 'Libre Bodoni';
+	src: url('../fonts/LibreBodoni/LibreBodoni-Bold.otf');
+	font-weight : 600;
+	font-style : normal;
+}
+@font-face {
+	font-family: 'Libre Bodoni';
+	src: url('../fonts/LibreBodoni/LibreBodoni-BoldItalic.otf');
+	font-weight : 600;
+	font-style : italic;
+}
+
+/*--TSTAR--*/
+
+@font-face {
+	font-family: 'TSTAR';
+	src: url('../fonts/TSTAR/tstar-light-webfont.ttf');
+	font-weight : 300;
+	font-style : normal;
+}
+@font-face {
+	font-family: 'TSTAR';
+	src: url('../fonts/TSTAR/tstar-lightitalic-webfont.ttf');
+	font-weight : 300;
+	font-style : italic;
+}
+@font-face {
+	font-family: 'TSTAR';
+	src: url('../fonts/TSTAR/tstar-regular-webfont.ttf');
+	font-weight : 400;
+	font-style : normal;
+}
+@font-face {
+	font-family: 'TSTAR';
+	src: url('../fonts/TSTAR/tstar-italic-webfont.ttf');
+	font-weight : 400;
+	font-style : italic;
+}
+@font-face {
+	font-family: 'TSTAR';
+	src: url('../fonts/TSTAR/tstar-bold-webfont.ttf');
+	font-weight : 600;
+	font-style : normal;
+}
+@font-face {
+	font-family: 'TSTAR';
+	src: url('../fonts/TSTAR/tstar-bolditalic-webfont.ttf');
+	font-weight : 600;
+	font-style : italic;
+}
+@font-face {
+	font-family: 'TSTAR';
+	src: url('../fonts/TSTAR/tstar-headline-webfont.ttf');
+	font-weight : 500;
+	font-style : normal;
+}

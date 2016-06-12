@@ -1,0 +1,124 @@
+body {
+	margin : 0;
+}
+.b-header {
+	grid-area : header;
+}
+.b-body {
+	grid-area : body;
+}
+.b-footer {
+	grid-area : footer;
+}
+.wrapper {
+	display : grid;
+	height : 100vh;
+	grid-template-columns : 100%;
+	grid-template-rows : 150px 1fr 75px;
+	grid-template-areas : "header"
+	"body"
+	"footer";
+}
+.top {
+	top : 0;
+}
+.left {
+	left : 0;
+}
+.right {
+	right : 0;
+}
+.bottom {
+	bottom : 0;
+}
+.dash-line {
+    background-color : #949494;
+    height : 2px;
+    margin : 0 15px 0 15px;
+}
+.bodoni {
+	font-family : "Libre Bodoni";
+}
+.f-heading-big {
+	font-family : "TSTAR";
+	font-weight : 500;
+	font-size : 2.5em;
+}
+.f-heading {
+	font-family : "TSTAR";
+	font-weight : 600;
+	font-size : 2em;
+}
+.f-body {
+	font-family : "PT Serif";
+	font-weight : 400;
+	font-size : 1em;
+}
+.f-other {
+	font-family : "TSTAR";
+	font-weight : 300;
+	font-size : 1em;
+}
+.bold {
+	font-weight : 600 !important;
+}
+.italic {
+	font-style : italic;
+}
+
+/*-------BUTTON STYLES-------*/
+
+button {
+	border : none;
+}
+button:focus {
+	outline : none;
+}
+.btn {
+	padding : 0;
+}
+.btn-big > i {
+    font-size : 20px;
+    padding: 8px 10.5px;
+}
+.btn-gray {
+	background-color : white;
+    color : #464646;
+    -webkit-transition : background-color 0.5s ease-in-out;
+    transition : background-color 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 0px 3px #464646;
+}
+.btn-gray:focus,
+.btn-gray:active,
+.btn-gray:hover {
+    background-color : #464646;
+}
+.btn-gray > i {
+    -webkit-transition: color 0.5s ease-in-out;
+    transition : color 0.5s ease-in-out;
+}
+.btn-gray > i:focus,
+.btn-gray > i:active,
+.btn-gray > i:hover {
+    color : white;
+}
+
+/*--------HEADER STYLES--------*/
+
+.b-header .container {
+	padding : 7.5px 0px;
+}
+.brand {
+	display : flex;
+	justify-content : center;
+	align-items : flex-start
+}
+.brand > img{
+	width : 370px;
+}
+.menu-toggle {
+	position : absolute;
+}
+.search-container {
+	position : absolute;
+}
